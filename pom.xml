@@ -7,6 +7,11 @@
 	<packaging>pom</packaging>
 	<properties>
 		<spring.version>4.3.2.RELEASE</spring.version>
+		        <!-- 文件拷贝时的编码 -->  
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>  
+        <!-- 编译时的编码 -->  
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -76,13 +81,13 @@
 			<version>1.2.1</version>
 		</dependency>
 		<dependency>
-            <groupId>jstl</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-        </dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
 	</dependencies>
 	<build>
-		<sourceDirectory>src/main/java,src/main/resources</sourceDirectory>
+		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -93,11 +98,22 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	<modules>
 		<!-- 依赖注入 -->
 		<module>app01a</module>
+
 		<module>app11a</module>
+		<module>app11b</module>
+		<module>app12a</module>
 	</modules>
 </project>
