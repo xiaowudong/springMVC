@@ -126,11 +126,15 @@
 		<module>app04a</module>
 		<!-- 最基础的springMVC应用 基于注解 加入依赖注入-->
 		<module>app04b</module>
+		<!-- 最基础的springMVC应用 基于注解 参数绑定-->
+		<module>app05a</module>
 		
+		<!-- 文件上传3.0以前版本-->
 		<module>app11a</module>
+		<!-- 文件上传3.0及以后版本-->
 		<module>app11b</module>
 		<module>app12a</module>
 
-		<module>app04b</module>
+		<module>app05a</module>
 	</modules>
 </project>
