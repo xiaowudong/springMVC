@@ -118,16 +118,19 @@
 		<module>app02b</module>
 		<!-- 传统的Servlet根据请求路径处理数据 引入Controller 处理请求 并在SaveProductController 中加入了输入校验-->
 		<module>app02c</module>
-		<!-- 最基础的springMVC应用-->
+		<!-- 最基础的springMVC应用 基于接口-->
 		<module>app03a</module>
-		<!-- 最基础的springMVC应用  加入viewResolver 帮助处理视图路径-->
+		<!-- 最基础的springMVC应用  基于接口 加入viewResolver 帮助处理视图路径-->
 		<module>app03b</module>
+		<!-- 最基础的springMVC应用 基于注解-->
+		<module>app04a</module>
+		<!-- 最基础的springMVC应用 基于注解 加入依赖注入-->
+		<module>app04b</module>
 		
 		<module>app11a</module>
 		<module>app11b</module>
 		<module>app12a</module>
 
-
-		<module>app03b</module>
+		<module>app04b</module>
 	</modules>
 </project>
