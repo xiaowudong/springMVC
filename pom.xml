@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.xwd.study</groupId>
 	<artifactId>springMVC</artifactId>
@@ -133,8 +132,9 @@
 		<module>app11a</module>
 		<!-- 文件上传3.0及以后版本-->
 		<module>app11b</module>
+		<!-- 文件下载-->
 		<module>app12a</module>
-
-		<module>app05a</module>
+		<!-- 汇总 -->
+    	<module>gather</module>
 	</modules>
 </project>
